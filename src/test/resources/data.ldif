@@ -1,0 +1,250 @@
+dn: dc=rickyepoderi,dc=es
+objectClass: domain
+objectClass: top
+dc: rickyepoderi
+
+dn: ou=People1,dc=rickyepoderi,dc=es
+objectClass: organizationalUnit
+objectClass: top
+ou: People1
+
+dn: cn=test1,ou=People1,dc=rickyepoderi,dc=es
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: test1
+sn: test1
+uid: test1
+userPassword: pwd@test1
+
+dn: ou=referral,ou=People1,dc=rickyepoderi,dc=es
+ou: referral
+ref: ldap://localhost:10389/ou=People2,dc=rickyepoderi,dc=es
+objectClass: referral
+objectClass: extensibleObject
+
+dn: ou=People2,dc=rickyepoderi,dc=es
+objectClass: organizationalUnit
+objectClass: top
+ou: People2
+
+dn: cn=test2,ou=People2,dc=rickyepoderi,dc=es
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: test2
+sn: test2
+uid: test2
+userPassword: pwd@test2
+
+dn: ou=referral,ou=People2,dc=rickyepoderi,dc=es
+ou: referral
+ref: ldap://localhost:10389/ou=People3,dc=rickyepoderi,dc=es
+objectClass: referral
+objectClass: extensibleObject
+
+dn: ou=People3,dc=rickyepoderi,dc=es
+objectClass: organizationalUnit
+objectClass: top
+ou: People3
+
+dn: cn=test3,ou=People3,dc=rickyepoderi,dc=es
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: test3
+sn: test3
+uid: test3
+userPassword: pwd@test3
+
+dn: ou=referral,ou=People3,dc=rickyepoderi,dc=es
+ou: referral
+ref: ldap://localhost:10389/ou=People4,dc=rickyepoderi,dc=es
+objectClass: referral
+objectClass: extensibleObject
+
+dn: ou=People4,dc=rickyepoderi,dc=es
+objectClass: organizationalUnit
+objectClass: top
+ou: People4
+
+dn: cn=test4,ou=People4,dc=rickyepoderi,dc=es
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: test4
+sn: test4
+uid: test4
+userPassword: pwd@test4
+
+dn: ou=referral,ou=People4,dc=rickyepoderi,dc=es
+ou: referral
+ref: ldap://localhost:10389/ou=People5,dc=rickyepoderi,dc=es
+objectClass: referral
+objectClass: extensibleObject
+
+dn: ou=People5,dc=rickyepoderi,dc=es
+objectClass: organizationalUnit
+objectClass: top
+ou: People5
+
+dn: cn=test5,ou=People5,dc=rickyepoderi,dc=es
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: test5
+sn: test5
+uid: test5
+userPassword: pwd@test5
+
+dn: ou=referral,ou=People5,dc=rickyepoderi,dc=es
+ou: referral
+ref: ldap://localhost:10389/ou=People6,dc=rickyepoderi,dc=es
+objectClass: referral
+objectClass: extensibleObject
+
+dn: ou=People6,dc=rickyepoderi,dc=es
+objectClass: organizationalUnit
+objectClass: top
+ou: People6
+
+dn: cn=test6,ou=People6,dc=rickyepoderi,dc=es
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: test6
+sn: test6
+uid: test6
+userPassword: pwd@test6
+
+dn: ou=referral,ou=People6,dc=rickyepoderi,dc=es
+ou: referral
+ref: ldap://localhost:10389/ou=People7,dc=rickyepoderi,dc=es
+objectClass: referral
+objectClass: extensibleObject
+
+dn: ou=People7,dc=rickyepoderi,dc=es
+objectClass: organizationalUnit
+objectClass: top
+ou: People7
+
+dn: cn=test7,ou=People7,dc=rickyepoderi,dc=es
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: test7
+sn: test7
+uid: test7
+userPassword: pwd@test7
+
+dn: ou=referral,ou=People7,dc=rickyepoderi,dc=es
+ou: referral
+ref: ldap://localhost:10389/ou=People8,dc=rickyepoderi,dc=es
+objectClass: referral
+objectClass: extensibleObject
+
+dn: ou=People8,dc=rickyepoderi,dc=es
+objectClass: organizationalUnit
+objectClass: top
+ou: People8
+
+dn: cn=test8,ou=People8,dc=rickyepoderi,dc=es
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: test8
+sn: test8
+uid: test8
+userPassword: pwd@test8
+
+dn: ou=referral,ou=People8,dc=rickyepoderi,dc=es
+ou: referral
+ref: ldap://localhost:10389/ou=People9,dc=rickyepoderi,dc=es
+objectClass: referral
+objectClass: extensibleObject
+
+dn: ou=People9,dc=rickyepoderi,dc=es
+objectClass: organizationalUnit
+objectClass: top
+ou: People9
+
+dn: cn=test9,ou=People9,dc=rickyepoderi,dc=es
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: test9
+sn: test9
+uid: test9
+userPassword: pwd@test9
+
+dn: ou=referral,ou=People9,dc=rickyepoderi,dc=es
+ou: referral
+ref: ldap://localhost:10389/ou=People10,dc=rickyepoderi,dc=es
+objectClass: referral
+objectClass: extensibleObject
+
+dn: ou=People10,dc=rickyepoderi,dc=es
+objectClass: organizationalUnit
+objectClass: top
+ou: People10
+
+dn: cn=test10,ou=People10,dc=rickyepoderi,dc=es
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: test10
+sn: test10
+uid: test10
+userPassword: pwd@test10
+
+dn: ou=referral,ou=People10,dc=rickyepoderi,dc=es
+ou: referral
+ref: ldap://localhost:10389/ou=People11,dc=rickyepoderi,dc=es
+objectClass: referral
+objectClass: extensibleObject
+
+dn: ou=People11,dc=rickyepoderi,dc=es
+objectClass: organizationalUnit
+objectClass: top
+ou: People11
+
+dn: cn=test11,ou=People11,dc=rickyepoderi,dc=es
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: test11
+sn: test11
+uid: test11
+userPassword: pwd@test11
+
+dn: ou=referral,ou=People11,dc=rickyepoderi,dc=es
+ou: referral
+ref: ldap://localhost:10389/ou=People12,dc=rickyepoderi,dc=es
+objectClass: referral
+objectClass: extensibleObject
+
+dn: ou=People12,dc=rickyepoderi,dc=es
+objectClass: organizationalUnit
+objectClass: top
+ou: People12
+
+dn: cn=test12,ou=People12,dc=rickyepoderi,dc=es
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+cn: test12
+sn: test12
+uid: test12
+userPassword: pwd@test12
